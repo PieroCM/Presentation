@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Vue.js",
+    "level": 90,
+    "category": "Frontend"
+  },
+  {
+    "name": "Quasar",
+    "level": 88,
+    "category": "Frontend"
+  },
+  {
+    "name": "JavaScript",
+    "level": 75,
+    "category": "Frontend"
+  },
+  {
+    "name": "HTML/CSS",
+    "level": 75,
+    "category": "Frontend"
+  },
+  {
+    "name": "React",
+    "level": 65,
+    "category": "Frontend"
+  },
+  {
+    "name": "C# (.NET 9 Web API)",
+    "level": 70,
+    "category": "Backend"
+  },
+  {
+    "name": "Node/Express",
+    "level": 60,
+    "category": "Backend"
+  },
+  {
+    "name": "PostgreSQL",
+    "level": 80,
+    "category": "Backend"
+  },
+  {
+    "name": "SQL Server",
+    "level": 80,
+    "category": "Backend"
+  },
+  {
+    "name": "SQLite",
+    "level": 40,
+    "category": "Backend"
+  },
+  {
+    "name": "Python",
+    "level": 85,
+    "category": "ML"
+  },
+  {
+    "name": "PyTorch",
+    "level": 45,
+    "category": "ML"
+  },
+  {
+    "name": "XGBoost",
+    "level": 70,
+    "category": "ML"
+  },
+  {
+    "name": "Docker",
+    "level": 80,
+    "category": "DevOps"
+  },
+  {
+    "name": "Podman",
+    "level": 80,
+    "category": "DevOps"
+  },
+  {
+    "name": "Git/GitHub",
+    "level": 94,
+    "category": "DevOps"
+  },
+  {
+    "name": "Inglés (B1-B2)",
+    "level": 50,
+    "category": "Other"
+  }
+]

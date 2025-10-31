@@ -33,5 +33,12 @@ export default defineRouter(function (/* { store, ssrContext } */) {
     history: createHistory(process.env.VUE_ROUTER_BASE),
   })
 
+  // Update page title on route change
+  Router.afterEach((to) => {
+    if (to.meta.title) {
+      document.title = to.meta.title
+    }
+  })
+
   return Router
 })
