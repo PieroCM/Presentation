@@ -3,7 +3,7 @@
     "title": "\"Tony\" Glove (IEEE IEMTRONICS 2024)",
     "desc": "Guante para facilitar la interacción con el entorno en niños con déficit viso-espacial.",
     "tags": ["Embedded", "IoT", "ML"],
-    "image": "/projects/Tony.jpg",
+    "image": "projects/Tony.jpg",
     "link": "https://link.springer.com/chapter/10.1007/978-981-97-4780-1_18",
     "codeLink": ""
   },
@@ -11,7 +11,7 @@
     "title": "IGD GROUP – Website corporativo",
     "desc": "Sitio publicitario con secciones y chatbot para consultora minera.",
     "tags": ["Vue", "Frontend", "Chatbot"],
-    "image": "/projects/IGD_proyect.png",
+    "image": "projects/IGD_proyect.png",
     "link": "https://igdgroupsac.com/#/",
     "codeLink": ""
   },
@@ -19,7 +19,7 @@
     "title": "Predicción CONMEBOL con XGBoost",
     "desc": "Modelo que acertó 7 de 10 resultados recientes; cuaderno reproducible en Colab.",
     "tags": ["Python", "XGBoost", "ML"],
-    "image": "/projects/colab-futbol.png",
+    "image": "projects/colab-futbol.png",
     "link": "https://colab.research.google.com/drive/1t_oN3BvuuXz3KRLVhc1dv_SaavKPoVQ6?usp=sharing",
     "codeLink": ""
   },
@@ -27,7 +27,7 @@
     "title": "PUSAQ UGEL Arequipa (en progreso)",
     "desc": "Sistema para instituciones: calendarios, documentos, eventos y gestión de usuarios.",
     "tags": ["FullStack", "Vue", "PostgreSQL"],
-    "image": "/projects/proyecto_pusaq.jpg",
+    "image": "projects/proyecto_pusaq.jpg",
     "link": "",
     "codeLink": ""
   }

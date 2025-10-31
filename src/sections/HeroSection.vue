@@ -10,10 +10,9 @@
             </h1>
             <h2 class="hero-subtitle">Junior Software Developer & ML-minded Data Analyst</h2>
             <p class="hero-description text-secondary">
-               Soy Piero: construyo interfaces en Vue/Quasar, APIs en .NET y conecto todo con Postgres. 
-               Me gusta llevar IA a productos reales (XGBoost, PyTorch) y bajar a tierra ideas de robótica con Raspberry Pi. 
-               He trabajado en PUSAQ (UGEL Arequipa), el sitio de IGD Group y el proyecto “Tony” Glove (IEMTRONICS 2024). 
-               Estudio en ESAN, itero rápido, documento bien y disfruto café, gaming y explorar museos en Lima.
+               Hola soy piero me encata programar y aprender nuevas tecnologias, actualmente estoy en busca de nuevas oportunidades
+               laborales para seguir creciendo profesionalmente y aportar mis conocimientos en el desarrollo 
+               de proyectos innovadores.
             </p>
             
             <div class="hero-actions">
@@ -46,7 +45,7 @@
             <div class="glow-ring glow-ring-2"></div>
             <div class="glow-ring glow-ring-3"></div>
             <img
-              src="/avatar.jpg"
+              :src="withBase('avatar.jpg')"
               alt="Piero Calderón"
               class="avatar-image"
               @error="handleImageError"
@@ -71,6 +70,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import { withBase } from '@/composables/useBasePath'
 
 const stats = [
   { icon: 'mdi-folder-multiple', value: '4', label: 'Projects' },

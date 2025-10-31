@@ -15,7 +15,7 @@
           <div class="project-card glass-card">
             <div class="project-image-wrapper">
               <img
-                :src="project.image"
+                :src="withBase(project.image)"
                 :alt="project.title"
                 class="project-image"
                 @error="handleImageError"
@@ -79,6 +79,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { withBase } from '@/composables/useBasePath'
 import RevealOnScroll from 'components/ui/RevealOnScroll.vue'
 import projectsData from 'src/data/projects.json'
 

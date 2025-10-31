@@ -49,7 +49,7 @@
           >
             <div class="project-image-wrapper">
               <img
-                :src="project.image"
+                :src="withBase(project.image)"
                 :alt="project.title"
                 class="project-image"
                 @error="handleImageError"
@@ -116,6 +116,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import projectsData from 'src/data/projects.json'
+import { withBase } from '@/composables/useBasePath'
 
 const projects = ref(projectsData)
 const selectedTag = ref('all')
