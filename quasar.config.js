@@ -35,6 +35,9 @@ export default defineConfig((/* ctx */) => {
       target: {
         browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
         node: 'node20',
+        vueRouterMode: 'hash',
+        publicPath: '/Presentation-/',   // 👈 nombre EXACTO del repo
+        vitePlugins: [ /* ... */ ]
       },
 
       vueRouterMode: 'hash', // available values: 'hash', 'history'
