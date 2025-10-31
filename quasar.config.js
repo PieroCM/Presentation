@@ -35,29 +35,13 @@ export default defineConfig((/* ctx */) => {
       target: {
         browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
         node: 'node20',
-        vueRouterMode: 'hash',
-        publicPath: '/Presentation-/',   // 👈 nombre EXACTO del repo
-        vitePlugins: [ /* ... */ ]
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
-      // vueRouterBase,
-      // vueDevtools,
-      // vueOptionsAPI: false,
+      // Router en modo hash para GitHub Pages
+      vueRouterMode: 'hash',
 
-      // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
-
-      // publicPath: '/',
-      // analyze: true,
-      // env: {},
-      // rawDefine: {}
-      // ignorePublicFolder: true,
-      // minify: false,
-      // polyfillModulePreload: true,
-      // distDir
-
-      // extendViteConf (viteConf) {},
-      // viteVuePluginOptions: {},
+      // 👇 nombre EXACTO del repo
+      publicPath: '/Presentation/',
 
       vitePlugins: [
         [
@@ -72,6 +56,7 @@ export default defineConfig((/* ctx */) => {
         ],
       ],
     },
+
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver
     devServer: {
