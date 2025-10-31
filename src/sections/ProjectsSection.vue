@@ -79,7 +79,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { withBase } from '@/composables/useBasePath'
+import { withBase } from 'src/composables/useBasePath'
 import RevealOnScroll from 'components/ui/RevealOnScroll.vue'
 import projectsData from 'src/data/projects.json'
 

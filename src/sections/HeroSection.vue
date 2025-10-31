@@ -70,7 +70,7 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { withBase } from '@/composables/useBasePath'
+import { withBase } from 'src/composables/useBasePath'
 
 const stats = [
   { icon: 'mdi-folder-multiple', value: '4', label: 'Projects' },

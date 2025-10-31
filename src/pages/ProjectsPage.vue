@@ -116,8 +116,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import projectsData from 'src/data/projects.json'
-import { withBase } from '@/composables/useBasePath'
-
+import { withBase } from 'src/composables/useBasePath'
 const projects = ref(projectsData)
 const selectedTag = ref('all')
 
